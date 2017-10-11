@@ -4,6 +4,7 @@
     <ul>
       <li><router-link :to="{ name: 'Upload'}">文件中转站</router-link></li>
       <li><router-link :to="{ name: 'Movie'}">电影清单</router-link></li>
+      <li><router-link :to="{ name: 'MD5'}">md5加解密</router-link></li>
     </ul>    
   </div>
 </template>

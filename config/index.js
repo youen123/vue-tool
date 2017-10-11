@@ -42,6 +42,13 @@ module.exports = {
           '^/movie': ''
         }
       },
+      '/md5': {
+        target: 'http://localhost:8088/md5',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/md5': ''
+        }
+      },
       '/static': {
         target: 'http://localhost:8088/static',
         changeOrigin: true,

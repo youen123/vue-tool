@@ -54,7 +54,7 @@
             </el-button-group>
         </el-col>
         <el-col :span="16">
-          <el-col v-if="item.subtitles">台词：{{item.subtitles}}</el-col>
+          <el-col v-if="item.subtitles">台词：<br/>{{item.subtitles}}<hr/></el-col>
           <el-col>槽点:😂<br/>{{item.remark}}</el-col>         
         </el-col>
 

@@ -6,6 +6,7 @@ var os = require('os')
 const bodyParser = require('body-parser')
 const multer = require('multer')
 const movieApi = require('./api/movie')
+const md5Api = require('./api/md5')
 
 // 文件上传
 function fileFilter (req, file, cb) {
@@ -57,6 +58,7 @@ app.post('/api/upload', upload.fields([{name: 'file', maxCount: 1}]), function (
 })
 
 app.use('/movie', movieApi)
+app.use('/md5', md5Api)
 app.listen(8088, function () {
   console.log('Example app listening on port 8088!')
 })
