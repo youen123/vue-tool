@@ -1,9 +1,10 @@
 # 工具箱
 
 ## 简介
-用来练手的项目，目的为学习vue和node，功能实现目前包括
+用来练手的项目， 目的为学习vue和node，功能实现目前包括
 - 文件中转站
 - 电影记录
+- 加解密字符串AES
 
 ## Build Setup
 
@@ -28,3 +29,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - 后端框架 express
 - 后端请求参数解析需使用的模块`body-parser`
 - 文件上传部分使用的模块`multer`(https://github.com/expressjs/multer)
+- 复制粘贴模块`clipboard`
+- 加密模块`crypto`
+
